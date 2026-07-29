@@ -1,56 +1,70 @@
 # 🌸 Bloom – AI Mental Wellness Companion
 
-Bloom is an AI-powered mental wellness companion that helps users monitor their emotional well-being through mood tracking, sentiment analysis, and machine learning–based stress prediction.
+Bloom is an AI-powered mental wellness companion that helps users track their emotional well-being through mood analysis, NLP-based sentiment analysis, and machine learning–driven stress prediction. The application provides personalized wellness recommendations using Google Gemini AI with a rule-based fallback mechanism for improved reliability.
 
-## ✨ Features
+## ✨ Key Features
 
-- 😊 Daily mood tracking
-- 📝 Journal entry analysis using TextBlob NLP
-- 🧠 Stress prediction using a Random Forest model
-- 🤖 Personalized wellness tips using Gemini AI
-- 🔄 Rule-based fallback when AI is unavailable
-- 📊 Health history dashboard
+- 😊 Daily mood, stress, and sleep tracking
+- 📝 Journal sentiment analysis using TextBlob NLP
+- 🧠 Stress level prediction using a Random Forest Machine Learning model
+- 🤖 Personalized wellness recommendations using Google Gemini AI
+- 🔄 Rule-based fallback when AI service is unavailable
+- 📊 Health history and analytics
 - 💾 MySQL database integration
-- 🌐 REST APIs built with Flask
+- 🌐 REST APIs developed using Flask
 
 ## 🛠️ Tech Stack
 
-- Frontend: React + Vite
-- Backend: Flask (Python)
-- Database: MySQL
-- NLP: TextBlob
-- Machine Learning: scikit-learn (Random Forest)
-- AI: Google Gemini API
-- Version Control: Git & GitHub
+**Frontend**
+- React
+- Vite
+- CSS
+
+**Backend**
+- Python
+- Flask
+- Flask-CORS
+
+**Database**
+- MySQL
+
+**Artificial Intelligence & Machine Learning**
+- Google Gemini API
+- TextBlob (NLP Sentiment Analysis)
+- Scikit-learn (Random Forest)
+
+**Tools**
+- Git
+- GitHub
 
 ## 📂 Project Structure
 
 ```
-backend/
+Bloom/
 ├── app.py
 ├── train_model.py
-├── stress_model.pkl
 ├── generate_data.py
-└── .env (not committed)
-
-frontend/
+├── stress_model.pkl
+├── stress_data.csv
 ├── src/
 ├── public/
-└── package.json
+├── package.json
+└── .env (ignored using .gitignore)
 ```
 
-## 🚀 Future Improvements
+## 🚀 Future Enhancements
 
-- Backend deployment on Render
+- Deploy backend on Render
 - User authentication
-- Voice-based journal input
+- Voice-based mood journal
 - Personalized AI insights
 - PDF wellness reports
+- Real-time dashboard
 
 ## 👩‍💻 Developer
 
 **Birundha M S**
 
-B.Tech Artificial Intelligence & Data Science
+B.Tech – Artificial Intelligence & Data Science
 
-Sri Krishna College of Technology (SKCET)
+Sri Krishna College of Technology (SKCET), Coimbatore
