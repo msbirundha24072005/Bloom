@@ -61,10 +61,4 @@ Bloom/
 - PDF wellness reports
 - Real-time dashboard
 
-## 👩‍💻 Developer
 
-**Birundha M S**
-
-B.Tech – Artificial Intelligence & Data Science
-
-Sri Krishna College of Technology (SKCET), Coimbatore
